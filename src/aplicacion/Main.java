@@ -32,7 +32,7 @@ public class Main {
 
         // Se procede con el catedrático de forma análoga a como
         // se ha procedido con el profesor titular.
-        Catedratico ct1 = new Catedratico();
+        Catedratico ct1 = new Catedratico("Juan Pérez");
         ct1.annadirMerito(articulo3);
         ct1.annadirMerito(articulo4);
         ct1.annadirMerito(proyecto2);
